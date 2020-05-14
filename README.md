@@ -10,4 +10,4 @@ In this repository, you will find:
 - **ActiveSuspension**: report of the development of fuzzy and PID controllers for active suspensions;
 - **MCDM**: development of a TOPSIS Multi Criteria Decision Making system applied to a simple dataset. A web based application has been developed for dataset exploration;
 - **MasterThesis**: master thesis with english abstract, entitled: "Development of a hybrid decision system based on domain knowledge and machine learning techniques";
-- **TravellingSalesman**: a MATLAB live script which describes and solves the travelling salesman problem with the simulated annealing algorithm.
+- **TravellingSalesman**: Jupyter Notebook and MATLAB live script which describe and solve the travelling salesman problem with the simulated annealing algorithm.
