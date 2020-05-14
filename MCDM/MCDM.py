@@ -125,24 +125,22 @@ app.layout = html.Div([
                     ],
                     value=features[1:],
                     multi=True
-                )
-            ], style={'width': '48%', 'float': 'left'}),
-
-            html.Div([
-                html.Label('X Axis'),
-                dcc.Dropdown(
-                    id='xaxis-column',
-                    options=[{'label': i, 'value': i} for i in features[1:]],
-                    value=features[2]
                 ),
 
-                html.Label('Y Axis'),
-                dcc.Dropdown(
-                    id='yaxis-column',
-                    options=[{'label': i, 'value': i} for i in features[1:]],
-                    value=features[3]
-                )
-            ], style={'width': '48%', 'float': 'left', 'columns':2}),
+            html.Label('X Axis'),
+            dcc.Dropdown(
+                id='xaxis-column',
+                options=[{'label': i, 'value': i} for i in features[1:]],
+                value=features[2]
+            ),
+
+            html.Label('Y Axis'),
+            dcc.Dropdown(
+                id='yaxis-column',
+                options=[{'label': i, 'value': i} for i in features[1:]],
+                value=features[3]
+            )
+        ], style={'width': '33%', 'float': 'left', 'columns':1}),
 
 
             html.Div([
