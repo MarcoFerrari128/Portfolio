@@ -4,6 +4,6 @@ The TSP is defined as follows:
 This is an **optimization** (minimization) problem, where the objective function is the total length of the route.
 
 ## Implementations
-In this repository the problem has been solved thanks to the **simulated annealing** algorithm. This has been implemented both in python and MATLAB.
+In this repository the problem has been solved thanks to the **simulated annealing** algorithm. This has been implemented both in Python and MATLAB.
 
 ![TSP-covergence](TSP.gif)

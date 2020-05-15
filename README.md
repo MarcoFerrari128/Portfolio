@@ -5,7 +5,7 @@ This repository contains some of the homeworks, the student projects assigned du
 ## Table of Contents
 In this repository, you will find:
 
-- **1D_Diffusion**: interactive Jupyter Notebook for the evaluation if the 1D heat diffusion on a fin;
+- **1D_Diffusion**: interactive Jupyter Notebook for the evaluation of the 1D heat diffusion on a fin with the *finite volume method*;
 - **AsymmetricPlaneDiffuser**: report of a study of several turbolence models applied on a test case;
 - **ActiveSuspension**: report of the development of fuzzy and PID controllers for active suspensions;
 - **MCDM**: development of a TOPSIS Multi Criteria Decision Making system applied to a simple dataset. A web based application has been developed for dataset exploration;
